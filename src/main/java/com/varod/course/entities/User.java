@@ -85,14 +85,6 @@ public class User implements Serializable {
 	public List<Order> getOrders() {
 		return orders;
 	}
-	
-	public void addOrder(Order o) {
-		orders.add(o);
-	}
-	
-	public void removeOrder(Order o) {
-		orders.remove(o);
-	}
 
 	@Override
 	public int hashCode() {
